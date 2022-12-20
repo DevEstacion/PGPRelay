@@ -7,4 +7,11 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+        <PackageReference Include="AWSSDK.SimpleEmailV2" Version="3.7.101.33"/>
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0"/>
+        <PackageReference Include="PgpCore" Version="5.9.0"/>
+    </ItemGroup>
+
 </Project>
