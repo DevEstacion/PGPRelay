@@ -1,8 +1,9 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using System.IO;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 using PgpCore;
-using PGPRelay.Utilities;
 
-namespace PGPRelay.Cipher;
+namespace PGPRelay.Engine.Cipher;
 
 public class Cipher : ICipher
 {
@@ -28,3 +29,4 @@ public class Cipher : ICipher
         return result;
     }
 }
+
